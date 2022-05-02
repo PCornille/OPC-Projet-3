@@ -1,0 +1,129 @@
+@media screen and (max-width: 768px) {
+  p, h2 {
+    font-family: "Roboto", sans-serif;
+  }
+
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+  }
+
+  .body {
+    width: 100%;
+  }
+
+  .logo-head {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.35);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .logo.top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+  }
+  .logo.foot {
+    width: 110px;
+    height: auto;
+    padding: 15px;
+    color: white;
+  }
+
+  .location {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .exploration {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .exploration__bouton {
+    background-color: #9356DC;
+    color: white;
+    border-radius: 50px;
+    height: 60px;
+    width: 270px;
+  }
+
+  .fonctionnement-display {
+    display: flex;
+    flex-direction: column;
+  }
+  .fonctionnement__unit {
+    display: flex;
+    border-radius: 35px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.35);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+  }
+  .fonctionnement__unit > i {
+    color: #8e8e8e;
+  }
+  .fonctionnement--nombre {
+    margin-top: 25px;
+    border-radius: 50px;
+    background-color: #9356DC;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .restaurant {
+    margin-top: 40px;
+    padding-top: 40px;
+    background-color: lightgrey;
+  }
+  .restaurant__display {
+    display: flex;
+    flex-direction: column;
+  }
+  .restaurant__unit {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+  }
+  .restaurant__unit--img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .restaurant__unit--info {
+    padding-left: 15px;
+    display: flex;
+  }
+  .restaurant__unit--nv on {
+    background-color: lightgreen;
+    color: forestgreen;
+  }
+
+  .footer {
+    background-color: black;
+  }
+  .footer__liens {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+  .footer__liens > a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer__liens > a > i {
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+  }
+}
+
+/*# sourceMappingURL=base.css.map */
